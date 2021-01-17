@@ -1,0 +1,150 @@
+body {
+    background: rgb(240, 240, 241);
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    text-align: left;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+.contactbody {
+    height: 100%;
+}
+
+.navbar {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 100px;
+}
+
+.pagetop{
+    display: flex;
+    margin: 0;
+}
+
+.col1 {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 60px;
+    font-weight: 500;
+    flex: 60%;
+    margin-top: 80px;
+    margin-left: 20px;
+}
+
+.pictop {
+    flex: 40%;
+    object-fit: cover;
+    object-position: 20px;
+    margin-right: 0px;
+    
+}
+
+.contpage {
+    display: flex;
+}
+
+.contactme {
+    flex: 50%;
+    background-image: url("Noom11.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form1 {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 200px;
+    margin-left: 250px;
+    color: #ffffff;
+}
+
+.circle {
+  height: 700px;
+  width: 700px;
+  border: 1px transparent;
+  opacity: 50%;
+  border-radius: 50%;
+  display: block;
+  position: absolute;
+  margin-left: 365px;
+  margin-top: 120px;
+}
+
+#boutwork {
+    background-image: url("Noom2.jpg");
+    opacity: 100%;
+    z-index: -1;
+    background-size: cover;
+}
+
+#lex {
+    color: rgb(176, 108, 149);
+}
+
+#work {
+    color: rgb(242, 169, 0);
+}
+
+#statement {
+    color: rgb(117, 148, 179);
+}
+
+#cv {
+    color: rgb(185, 71, 0);
+}
+
+#about {
+    color: rgb(113, 153, 73);
+}
+
+#contact {
+    color: #000000;
+}
+
+#nav {
+    flex: 50%;
+    z-index: 2;
+}
+
+#name {
+    width:250;
+}
+
+#email {
+    width: 250;
+}
+
+#phone {
+    width: 250;
+}
+
+#message {
+    width: 500;
+    line-height: 20;
+}
+
+#navbout {
+    text-shadow: 2px 2px #000000;
+    border: 1px transparent;
+    background: rgba(255, 255, 255, .2);
+    padding: 5px 20px 5px
+}
