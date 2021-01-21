@@ -1,8 +1,22 @@
-body {
-    display: grid;
-    background: rgb(56,54,84);
-    background: linear-gradient(318deg, rgba(56,54,84,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
-    font-family: 'Titillium Web', sans-serif;
-    font-family: 'IBM Plex Sans', sans-serif;
+html {
+    height: 100%;
 }
 
+body {
+    display: grid;
+    background: rgb(56,54,84) fixed;
+    background: linear-gradient(318deg, rgba(56,54,84,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%) fixed;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+    padding: 20px;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400px;
+    color: #ffffff;
+    float: right;
+}
