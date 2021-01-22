@@ -1,0 +1,41 @@
+html {
+    height: 100%;
+}
+
+body {
+    display: grid;
+    grid-template-columns: ;
+    background: rgb(56,54,84) fixed;
+    background: linear-gradient(318deg, rgba(56,54,84,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%) fixed;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    padding: 20px;
+    font-size: 30px;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400px;
+    color: #ffffff;
+}
+
+.main {
+    
+}
+
+.vendy {
+    flex: 30%;
+}
+
+.boutsec {
+    flex: 70%;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 400px;
+    color: #ffffff;
+}
