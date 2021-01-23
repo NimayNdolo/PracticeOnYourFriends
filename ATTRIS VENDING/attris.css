@@ -4,7 +4,6 @@ html {
 
 body {
     display: grid;
-    grid-template-columns: ;
     background: rgb(56,54,84) fixed;
     background: linear-gradient(318deg, rgba(56,54,84,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%) fixed;
 }
